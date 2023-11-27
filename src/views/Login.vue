@@ -29,10 +29,10 @@ const login = (e) => {
 <template>
     <form @submit="(e) => login(e)">
         <div>
-            <input type="text" placeholder="Username" v-model="username">
+            <input type="text" placeholder="Username: raffa" v-model="username">
         </div>
         <div>
-            <input type="text" placeholder="Password" v-model="password">
+            <input type="password" placeholder="Password: 1234" v-model="password">
         </div>
         <button type="submit" class="login">Login</button>
     </form>
